@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page10.html",
+    "currentPage": "page11.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -67,7 +67,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 170,
+    "uniqCompNum": 174,
     "versionPublish": "5.9.18",
     "screenshot": "screenshot.png"
   },
@@ -1146,7 +1146,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/img_20241028_161735_resized-921x921.png",
-        "order": "15"
+        "order": "16"
       },
       "components": [
         {
@@ -1666,7 +1666,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/img_20241028_161735_resized-921x921.png",
-        "order": "13"
+        "order": "14"
       },
       "components": [
         {
@@ -2812,7 +2812,7 @@
     "page8.html": {
       "settings": {
         "title": "My Still Small Voice: Contact Me",
-        "order": "14",
+        "order": "15",
         "meta_image": "@PROJECT_PATH@/assets/images/img_20241028-161735-1024x1024.png",
         "meta_descr": "Use this form to share your thoughts with me! Positive or negative vibes, the form can handle it."
       },
@@ -4497,7 +4497,7 @@
           },
           "_name": "timeline3",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"timeline3\" group=\"Timelines\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Reverse Timeline\" name=\"reverseTimeline\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Dates\" name=\"showDates\" checked>\n        <input type=\"checkbox\" title=\"Images\" name=\"showImages\" checked>\n        <select title=\"Count\" name=\"timelinesAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n            <option value=\"7\">7</option>\n            <option value=\"8\">8</option>\n            <option value=\"9\">9</option>\n            <option value=\"10\">10</option>\n            <option value=\"11\">11</option>\n            <option value=\"12\">12</option>\n        </select>\n        <input type=\"color\" name=\"lineColor\" title=\"Color\" value=\"#0abab5\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>Life Beyond Mormonism</b></h3>\n            <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                Enter subtitle here\n            </h4>\n        </div>\n        <div class=\"timelines-container mt-4\">\n            <div class=\"row timeline-element first-separline mb-5\" mbr-class=\"{'reverseTimeline': reverseTimeline}\">\n                <div class=\"timeline-date col-12\">\n                    <div class=\"timeline-date-wrapper\">\n                        <p class=\"mbr-timeline-date\" data-toolbar=\"-mbrAlign\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">December 7, 2024</p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"image-wrapper\" mbr-if=\"showImages\">\n                        <a href=\"page13.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-1248x818.jpg\" alt=\"Mobirise Website Builder\" title></a>\n                    </div>\n                </div>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"timeline-text-wrapper\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\"><a href=\"page13.html\" class=\"text-secondary\"><b>Why Healing Feels Like a Fight</b></a></h4>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><a href=\"page13.html\" class=\"text-white\">The Messy Middle of Healing, Grieving, and Moving Forward</a></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row timeline-element first-separline mb-5\" mbr-class=\"{'reverseTimeline': reverseTimeline}\" mbr-if=\"timelinesAmount>1\">\n                <div class=\"timeline-date col-12\">\n                    <div class=\"timeline-date-wrapper\">\n                        <p class=\"mbr-timeline-date\" data-toolbar=\"-mbrAlign\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            December 9, 2024</p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"image-wrapper\" mbr-if=\"showImages\">\n                        <a href=\"page15.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-1248x832.jpg\" alt=\"Mobirise Website Builder\" title></a>\n                    </div>\n                </div>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"timeline-text-wrapper\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\"><a href=\"page15.html\" class=\"text-secondary\">Oh My God, He Actually Made It All Up</a></h4>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><a href=\"page15.html\" class=\"text-white\">Spoilers: In this one, I talk about my journey out. It's pretty faith friendly: but I do mention *some* of Joseph Smith's shenanigans and polygamy and make it very clear that I believe he made the whole religion up. There are no sources inside, no \"gotchas\" just my own feelings.</a></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row timeline-element first-separline mb-5\" mbr-class=\"{'reverseTimeline': reverseTimeline}\" mbr-if=\"timelinesAmount>2\">\n                <div class=\"timeline-date col-12\">\n                    <div class=\"timeline-date-wrapper\">\n                        <p class=\"mbr-timeline-date\" data-toolbar=\"-mbrAlign\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            23 April 2025</p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"image-wrapper\" mbr-if=\"showImages\">\n                        <img src=\"../_images/features/features3.jpg\" alt=\"Mobirise Website Builder\" title>\n                    </div>\n                </div>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"timeline-text-wrapper\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            <b>Form Builder</b>\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            This is a timeline block. Click on the blue gear icon to set the number of items in this timeline. Select the theme that suits you. Each theme in the Mobirise site builder contains a set of unique blocks.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row timeline-element first-separline mb-5\" mbr-class=\"{'reverseTimeline': reverseTimeline}\" mbr-if=\"timelinesAmount>3\">\n                <div class=\"timeline-date col-12\">\n                    <div class=\"timeline-date-wrapper\">\n                        <p class=\"mbr-timeline-date\" data-toolbar=\"-mbrAlign\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            23 April 2025</p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"image-wrapper\" mbr-if=\"showImages\">\n                        <img src=\"../_images/features/features3.jpg\" alt=\"Mobirise Website Builder\" title>\n                    </div>\n                </div>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"timeline-text-wrapper\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            <b>Form Builder</b>\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            This is a timeline block. Click on the blue gear icon to set the number of items in this timeline. Use Mobirise website building software to create multiple sites for commercial and non-profit projects.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row timeline-element first-separline mb-5\" mbr-class=\"{'reverseTimeline': reverseTimeline}\" mbr-if=\"timelinesAmount>4\">\n                <div class=\"timeline-date col-12\">\n                    <div class=\"timeline-date-wrapper\">\n                        <p class=\"mbr-timeline-date\" data-toolbar=\"-mbrAlign\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            23 April 2025</p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"image-wrapper\" mbr-if=\"showImages\">\n                        <img src=\"../_images/features/features3.jpg\" alt=\"Mobirise Website Builder\" title>\n                    </div>\n                </div>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"timeline-text-wrapper\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            <b>Form Builder</b>\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            This is a timeline block. Click on the blue gear icon to set the number of items in this timeline. You don't have to code to create your own site. Select one of available themes in the Mobirise sitebuilder.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row timeline-element first-separline mb-5\" mbr-class=\"{'reverseTimeline': reverseTimeline}\" mbr-if=\"timelinesAmount>5\">\n                <div class=\"timeline-date col-12\">\n                    <div class=\"timeline-date-wrapper\">\n                        <p class=\"mbr-timeline-date\" data-toolbar=\"-mbrAlign\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            23 April 2025</p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"image-wrapper\" mbr-if=\"showImages\">\n                        <img src=\"../_images/features/features3.jpg\" alt=\"Mobirise Website Builder\" title>\n                    </div>\n                </div>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"timeline-text-wrapper\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            <b>Form Builder</b>\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            This is a timeline block. Click on the blue gear icon to set the number of items in this timeline. All sites you create with the Mobirise web builder are mobile-friendly natively. No special actions required.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row timeline-element first-separline mb-5\" mbr-class=\"{'reverseTimeline': reverseTimeline}\" mbr-if=\"timelinesAmount>6\">\n                <div class=\"timeline-date col-12\">\n                    <div class=\"timeline-date-wrapper\">\n                        <p class=\"mbr-timeline-date\" data-toolbar=\"-mbrAlign\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            23 April 2025</p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"image-wrapper\" mbr-if=\"showImages\">\n                        <img src=\"../_images/features/features3.jpg\" alt=\"Mobirise Website Builder\" title>\n                    </div>\n                </div>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"timeline-text-wrapper\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            <b>Form Builder</b>\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            This is a timeline block. Click on the blue gear icon to set the number of items in this timeline. Select the theme that suits you. Each theme in the Mobirise site builder contains a set of unique blocks.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row timeline-element first-separline mb-5\" mbr-class=\"{'reverseTimeline': reverseTimeline}\" mbr-if=\"timelinesAmount>7\">\n                <div class=\"timeline-date col-12\">\n                    <div class=\"timeline-date-wrapper\">\n                        <p class=\"mbr-timeline-date\" data-toolbar=\"-mbrAlign\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            23 April 2025</p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"image-wrapper\" mbr-if=\"showImages\">\n                        <img src=\"../_images/features/features3.jpg\" alt=\"Mobirise Website Builder\" title>\n                    </div>\n                </div>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"timeline-text-wrapper\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            <b>Form Builder</b>\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            This is a timeline block. Click on the blue gear icon to set the number of items in this timeline. Use Mobirise website building software to create multiple sites for commercial and non-profit projects.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row timeline-element first-separline mb-5\" mbr-class=\"{'reverseTimeline': reverseTimeline}\" mbr-if=\"timelinesAmount>8\">\n                <div class=\"timeline-date col-12\">\n                    <div class=\"timeline-date-wrapper\">\n                        <p class=\"mbr-timeline-date\" data-toolbar=\"-mbrAlign\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            23 April 2025</p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"image-wrapper\" mbr-if=\"showImages\">\n                        <img src=\"../_images/features/features3.jpg\" alt=\"Mobirise Website Builder\" title>\n                    </div>\n                </div>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"timeline-text-wrapper\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            <b>Form Builder</b>\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            This is a timeline block. Click on the blue gear icon to set the number of items in this timeline. You don't have to code to create your own site. Select one of available themes in the Mobirise sitebuilder.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row timeline-element first-separline mb-5\" mbr-class=\"{'reverseTimeline': reverseTimeline}\" mbr-if=\"timelinesAmount>9\">\n                <div class=\"timeline-date col-12\">\n                    <div class=\"timeline-date-wrapper\">\n                        <p class=\"mbr-timeline-date\" data-toolbar=\"-mbrAlign\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            23 April 2025</p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"image-wrapper\" mbr-if=\"showImages\">\n                        <img src=\"../_images/features/features3.jpg\" alt=\"Mobirise Website Builder\" title>\n                    </div>\n                </div>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"timeline-text-wrapper\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            <b>Form Builder</b>\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            This is a timeline block. Click on the blue gear icon to set the number of items in this timeline. All sites you create with the Mobirise web builder are mobile-friendly natively. No special actions required.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row timeline-element first-separline mb-5\" mbr-class=\"{'reverseTimeline': reverseTimeline}\" mbr-if=\"timelinesAmount>10\">\n                <div class=\"timeline-date col-12\">\n                    <div class=\"timeline-date-wrapper\">\n                        <p class=\"mbr-timeline-date\" data-toolbar=\"-mbrAlign\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            23 April 2025</p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"image-wrapper\" mbr-if=\"showImages\">\n                        <img src=\"../_images/features/features3.jpg\" alt=\"Mobirise Website Builder\" title>\n                    </div>\n                </div>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"timeline-text-wrapper\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            <b>Form Builder</b>\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            This is a timeline block. Click on the blue gear icon to set the number of items in this timeline. Select the theme that suits you. Each theme in the Mobirise site builder contains a set of unique blocks.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row timeline-element first-separline mb-5\" mbr-class=\"{'reverseTimeline': reverseTimeline}\" mbr-if=\"timelinesAmount>11\">\n                <div class=\"timeline-date col-12\">\n                    <div class=\"timeline-date-wrapper\">\n                        <p class=\"mbr-timeline-date\" data-toolbar=\"-mbrAlign\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            23 April 2025</p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"image-wrapper\" mbr-if=\"showImages\">\n                        <img src=\"../_images/features/features3.jpg\" alt=\"Mobirise Website Builder\" title>\n                    </div>\n                </div>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"timeline-text-wrapper\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            <b>Form Builder</b>\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            This is a timeline block. Click on the blue gear icon to set the number of items in this timeline. Use Mobirise website building software to create multiple sites for commercial and non-profit projects.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"timeline3\" group=\"Timelines\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Reverse Timeline\" name=\"reverseTimeline\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Dates\" name=\"showDates\" checked>\n        <input type=\"checkbox\" title=\"Images\" name=\"showImages\" checked>\n        <select title=\"Count\" name=\"timelinesAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n            <option value=\"7\">7</option>\n            <option value=\"8\">8</option>\n            <option value=\"9\">9</option>\n            <option value=\"10\">10</option>\n            <option value=\"11\">11</option>\n            <option value=\"12\">12</option>\n        </select>\n        <input type=\"color\" name=\"lineColor\" title=\"Color\" value=\"#0abab5\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>Life Beyond Mormonism</b></h3>\n            <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                Enter subtitle here\n            </h4>\n        </div>\n        <div class=\"timelines-container mt-4\">\n            <div class=\"row timeline-element first-separline mb-5\" mbr-class=\"{'reverseTimeline': reverseTimeline}\">\n                <div class=\"timeline-date col-12\">\n                    <div class=\"timeline-date-wrapper\">\n                        <p class=\"mbr-timeline-date\" data-toolbar=\"-mbrAlign\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">December 7, 2024</p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"image-wrapper\" mbr-if=\"showImages\">\n                        <a href=\"page13.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-1248x818.jpg\" alt=\"Mobirise Website Builder\" title></a>\n                    </div>\n                </div>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"timeline-text-wrapper\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\"><a href=\"page13.html\" class=\"text-secondary\"><b>Why Healing Feels Like a Fight</b></a></h4>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><a href=\"page13.html\" class=\"text-white\">The Messy Middle of Healing, Grieving, and Moving Forward</a></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row timeline-element first-separline mb-5\" mbr-class=\"{'reverseTimeline': reverseTimeline}\" mbr-if=\"timelinesAmount>1\">\n                <div class=\"timeline-date col-12\">\n                    <div class=\"timeline-date-wrapper\">\n                        <p class=\"mbr-timeline-date\" data-toolbar=\"-mbrAlign\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            December 9, 2024</p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"image-wrapper\" mbr-if=\"showImages\">\n                        <a href=\"page15.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-1248x832.jpg\" alt=\"Mobirise Website Builder\" title></a>\n                    </div>\n                </div>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"timeline-text-wrapper\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\"><a href=\"page15.html\" class=\"text-secondary\">Oh My God, He Actually Made It All Up</a></h4>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><a href=\"page15.html\" class=\"text-white\">Spoilers: In this one, I talk about my journey out. It's pretty faith friendly: but I do mention *some* of Joseph Smith's shenanigans and polygamy and make it very clear that I believe he made the whole religion up. There are no sources inside, no \"gotchas\" just my own feelings.</a></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row timeline-element first-separline mb-5\" mbr-class=\"{'reverseTimeline': reverseTimeline}\" mbr-if=\"timelinesAmount>2\">\n                <div class=\"timeline-date col-12\">\n                    <div class=\"timeline-date-wrapper\">\n                        <p class=\"mbr-timeline-date\" data-toolbar=\"-mbrAlign\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">December 14, 2024</p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"image-wrapper\" mbr-if=\"showImages\">\n                        <a href=\"page20.html\"><img src=\"@PROJECT_PATH@/assets/images/dalle-2024-12-14-21.38.28-a-minimalist-illustration-of-an-open-hand-holding-a-glowing-heart-with-vibrant-rainbow-hues.-the-hand-is-realistic-yet-simple-with-a-soft-neutral-ba.webp\" alt=\"Mobirise Website Builder\" title></a>\n                    </div>\n                </div>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"timeline-text-wrapper\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            <b><a href=\"page20.html\" class=\"text-secondary\">What If Christlike Love Actually Meant Something?</a></b></h4>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><a href=\"page20.html\" class=\"text-white\">Breaking free from outdated beliefs and embracing unconditional love, this heartfelt post dives into LGBTQ+ acceptance, life beyond Mormonism, and what it really means to practice Christlike love. Through fiery reflections and personal stories, it challenges the harm of judgment and celebrates the power of inclusion, compassion, and humanity’s potential to do better. A must-read for anyone navigating deconstruction, allyship, or the pursuit of a kinder world.</a></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row timeline-element first-separline mb-5\" mbr-class=\"{'reverseTimeline': reverseTimeline}\" mbr-if=\"timelinesAmount>3\">\n                <div class=\"timeline-date col-12\">\n                    <div class=\"timeline-date-wrapper\">\n                        <p class=\"mbr-timeline-date\" data-toolbar=\"-mbrAlign\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            23 April 2025</p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"image-wrapper\" mbr-if=\"showImages\">\n                        <img src=\"../_images/features/features3.jpg\" alt=\"Mobirise Website Builder\" title>\n                    </div>\n                </div>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"timeline-text-wrapper\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            <b>Form Builder</b>\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            This is a timeline block. Click on the blue gear icon to set the number of items in this timeline. Use Mobirise website building software to create multiple sites for commercial and non-profit projects.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row timeline-element first-separline mb-5\" mbr-class=\"{'reverseTimeline': reverseTimeline}\" mbr-if=\"timelinesAmount>4\">\n                <div class=\"timeline-date col-12\">\n                    <div class=\"timeline-date-wrapper\">\n                        <p class=\"mbr-timeline-date\" data-toolbar=\"-mbrAlign\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            23 April 2025</p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"image-wrapper\" mbr-if=\"showImages\">\n                        <img src=\"../_images/features/features3.jpg\" alt=\"Mobirise Website Builder\" title>\n                    </div>\n                </div>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"timeline-text-wrapper\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            <b>Form Builder</b>\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            This is a timeline block. Click on the blue gear icon to set the number of items in this timeline. You don't have to code to create your own site. Select one of available themes in the Mobirise sitebuilder.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row timeline-element first-separline mb-5\" mbr-class=\"{'reverseTimeline': reverseTimeline}\" mbr-if=\"timelinesAmount>5\">\n                <div class=\"timeline-date col-12\">\n                    <div class=\"timeline-date-wrapper\">\n                        <p class=\"mbr-timeline-date\" data-toolbar=\"-mbrAlign\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            23 April 2025</p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"image-wrapper\" mbr-if=\"showImages\">\n                        <img src=\"../_images/features/features3.jpg\" alt=\"Mobirise Website Builder\" title>\n                    </div>\n                </div>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"timeline-text-wrapper\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            <b>Form Builder</b>\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            This is a timeline block. Click on the blue gear icon to set the number of items in this timeline. All sites you create with the Mobirise web builder are mobile-friendly natively. No special actions required.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row timeline-element first-separline mb-5\" mbr-class=\"{'reverseTimeline': reverseTimeline}\" mbr-if=\"timelinesAmount>6\">\n                <div class=\"timeline-date col-12\">\n                    <div class=\"timeline-date-wrapper\">\n                        <p class=\"mbr-timeline-date\" data-toolbar=\"-mbrAlign\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            23 April 2025</p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"image-wrapper\" mbr-if=\"showImages\">\n                        <img src=\"../_images/features/features3.jpg\" alt=\"Mobirise Website Builder\" title>\n                    </div>\n                </div>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"timeline-text-wrapper\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            <b>Form Builder</b>\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            This is a timeline block. Click on the blue gear icon to set the number of items in this timeline. Select the theme that suits you. Each theme in the Mobirise site builder contains a set of unique blocks.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row timeline-element first-separline mb-5\" mbr-class=\"{'reverseTimeline': reverseTimeline}\" mbr-if=\"timelinesAmount>7\">\n                <div class=\"timeline-date col-12\">\n                    <div class=\"timeline-date-wrapper\">\n                        <p class=\"mbr-timeline-date\" data-toolbar=\"-mbrAlign\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            23 April 2025</p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"image-wrapper\" mbr-if=\"showImages\">\n                        <img src=\"../_images/features/features3.jpg\" alt=\"Mobirise Website Builder\" title>\n                    </div>\n                </div>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"timeline-text-wrapper\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            <b>Form Builder</b>\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            This is a timeline block. Click on the blue gear icon to set the number of items in this timeline. Use Mobirise website building software to create multiple sites for commercial and non-profit projects.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row timeline-element first-separline mb-5\" mbr-class=\"{'reverseTimeline': reverseTimeline}\" mbr-if=\"timelinesAmount>8\">\n                <div class=\"timeline-date col-12\">\n                    <div class=\"timeline-date-wrapper\">\n                        <p class=\"mbr-timeline-date\" data-toolbar=\"-mbrAlign\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            23 April 2025</p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"image-wrapper\" mbr-if=\"showImages\">\n                        <img src=\"../_images/features/features3.jpg\" alt=\"Mobirise Website Builder\" title>\n                    </div>\n                </div>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"timeline-text-wrapper\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            <b>Form Builder</b>\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            This is a timeline block. Click on the blue gear icon to set the number of items in this timeline. You don't have to code to create your own site. Select one of available themes in the Mobirise sitebuilder.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row timeline-element first-separline mb-5\" mbr-class=\"{'reverseTimeline': reverseTimeline}\" mbr-if=\"timelinesAmount>9\">\n                <div class=\"timeline-date col-12\">\n                    <div class=\"timeline-date-wrapper\">\n                        <p class=\"mbr-timeline-date\" data-toolbar=\"-mbrAlign\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            23 April 2025</p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"image-wrapper\" mbr-if=\"showImages\">\n                        <img src=\"../_images/features/features3.jpg\" alt=\"Mobirise Website Builder\" title>\n                    </div>\n                </div>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"timeline-text-wrapper\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            <b>Form Builder</b>\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            This is a timeline block. Click on the blue gear icon to set the number of items in this timeline. All sites you create with the Mobirise web builder are mobile-friendly natively. No special actions required.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row timeline-element first-separline mb-5\" mbr-class=\"{'reverseTimeline': reverseTimeline}\" mbr-if=\"timelinesAmount>10\">\n                <div class=\"timeline-date col-12\">\n                    <div class=\"timeline-date-wrapper\">\n                        <p class=\"mbr-timeline-date\" data-toolbar=\"-mbrAlign\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            23 April 2025</p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"image-wrapper\" mbr-if=\"showImages\">\n                        <img src=\"../_images/features/features3.jpg\" alt=\"Mobirise Website Builder\" title>\n                    </div>\n                </div>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"timeline-text-wrapper\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            <b>Form Builder</b>\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            This is a timeline block. Click on the blue gear icon to set the number of items in this timeline. Select the theme that suits you. Each theme in the Mobirise site builder contains a set of unique blocks.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row timeline-element first-separline mb-5\" mbr-class=\"{'reverseTimeline': reverseTimeline}\" mbr-if=\"timelinesAmount>11\">\n                <div class=\"timeline-date col-12\">\n                    <div class=\"timeline-date-wrapper\">\n                        <p class=\"mbr-timeline-date\" data-toolbar=\"-mbrAlign\" mbr-theme-style=\"display-7\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            23 April 2025</p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"image-wrapper\" mbr-if=\"showImages\">\n                        <img src=\"../_images/features/features3.jpg\" alt=\"Mobirise Website Builder\" title>\n                    </div>\n                </div>\n                <div class=\"col-12 col-md-6\">\n                    <div class=\"timeline-text-wrapper\">\n                        <h4 class=\"mbr-timeline-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            <b>Form Builder</b>\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            This is a timeline block. Click on the blue gear icon to set the number of items in this timeline. Use Mobirise website building software to create multiple sites for commercial and non-profit projects.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "utskjoTPve",
           "_anchor": "timeline3-2t",
           "_protectedParams": [],
@@ -5084,7 +5084,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/img_20241028_161735_resized-921x921.png",
-        "order": "12"
+        "order": "13"
       },
       "components": [
         {
@@ -6374,7 +6374,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/img_20241028_161735_resized-921x921.png",
-        "order": "11"
+        "order": "12"
       },
       "components": [
         {
@@ -7457,7 +7457,7 @@
         {
           "_name": "article02",
           "_sourceTheme": "healthm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article02 healthm5\" group=\"Article\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"12\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"12\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDesc\" checked>\n        <input type=\"color\" title=\"Description BG\" value=\"#353535\" name=\"descBg\" condition=\"showDesc ||showCardDesc\" selected>\n        <input type=\"color\" title=\"Description Border\" value=\"#0abab5\" name=\"borderDesc\" condition=\"showDesc || showCardDesc\" selected>\n        <input type=\"checkbox\" title=\"Text 1\" name=\"showText_1\" checked>\n        <input type=\"checkbox\" title=\"Subtitle&quot;\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Text 2\" name=\"showText_2\" checked>\n        <input type=\"color\" title=\"Container BG\" value=\"#353535\" name=\"container\" selected>\n        <input type=\"color\" title=\"Border\" value=\"#d4a5a5\" name=\"border\" selected>\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Card Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Card Role\" name=\"showRole\" checked>\n        <input type=\"color\" title=\"Card BG\" value=\"#bbbbbb\" name=\"card\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/healthm5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/healthm5/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n            <div class=\"col-12 col-lg-6\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/mbr-1248x832.jpg\" alt=\"Mobirise\">\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-6\">\n                <div class=\"content-wrapper\">\n                    <div class=\"content-wrap\" mbr-if=\"showDesc || showTitle || showText\">\n                        <div class=\"desc-wrapper\">\n                            <p class=\"mbr-desc mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showDesc\" data-app-selector=\".mbr-desc, .desc-wrapper\">December 9, 2024</p>\n                        </div>\n                        <h2 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Oh My God, He Actually Made It All Up</b></h2>\n                        <p class=\"mbr-text_1 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText_1\" data-app-selector=\".mbr-text_1\"><b>\n                            My Journey Out of Mormonism</b></p>\n                    </div>\n                    <div class=\"content-wrap\" mbr-if=\"showSubtitle || showText_2\">\n                        <h3 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"><b>\n                            Beyond Physical Strength\n                        </b></h3>\n                        <p class=\"mbr-text_2 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText_2\" data-app-selector=\".mbr-text_2\"><b>The First Cracks in the Foundation</b><br><b>\n<br></b>It’s hard to pinpoint the exact moment my doubts about Mormonism began, but one memory stands out: the day I learned Joseph Smith practiced polygamy. My heart sank—not just a “few” wives but many, and not in some distant, past-life hypothetical sense. Up until then, I’d bought into the love story of Joseph and Emma: eloping, called by God, her steadfast loyalty. This? This shattered that fairytale.\n<br>\n<br>Questions weren’t welcomed in my home. Doubt was a tool of Satan, and the cure was simple: pray more, read scriptures, and immerse yourself in church activities until those pesky feelings disappeared. Anti-Mormon literature was treated like radioactive waste. People who read it were pitied: “It’s so sad they left the church. The church is true whether they believe it or not.”\n<br>\n<br>The church itself? It was less of a comforting presence and more like an overbearing, know-it-all uncle. Meetings stretched for three hours (back then), and every Sunday, I dreaded the hard chairs and self-righteous teachers who seemed to delight in calling on me when I was deep in a daydream. Occasionally, it morphed into a “quirky aunt” phase: obsessing over marriage and babies, Bennet sisters-style.\n<br>\n<br><b>Strict Rules, Tithing Tantrums, and Teenage Drama</b><br><b>\n</b><br>Looking back, some of the rules my parents enforced in the name of righteousness feel absurd. Like the time I’d saved for what felt like eons for a Pokémon game, only for my mom to ask if I’d paid tithing on my allowance. Spoiler: I hadn’t. Cue heart-sinking realization that I’d need to earn even more money before I could buy my beloved game.\n<br>\n<br>They were strict about everything: paying attention in church (no tic-tac-toe or note-passing), staying awake during General Conference, and never letting my head rest on their lap after I turned 8. This militant approach to “spirituality” taught me one thing: church was about appearances, not connection.\n<br>\n<br>The absurdity reached a fever pitch during my teenage years, specifically with my dating life. I dated a never-Mormon boy in high school, and the stress my parents put me through was nothing compared to the next relationship—with a returned missionary! They lost their minds. I remember thinking: This can’t be normal. This is MY eternity. Why are they acting like it’s theirs?\n<br>\n<br><b>The Breaking Point</b><br><b>\n</b><br>The final straw came when Nathan suggested we take a break from church. I agreed, more for the kids’ sake than my own. I wanted to protect them from the harm I’d endured—the guilt, the strained parent-child relationships, the pressure to conform. At that point, I still believed the church was true.\n<br>\n<br>Then I read \"A Letter to My Wife\". I didn’t just lose faith; I slammed the door, locked it, and threw away the key. The letter laid bare everything I’d been afraid to confront. It was a seismic shift—from “maybe we’ll come back someday” to “F*** this institution.”\n<br>\n<br>The freedom was immediate and overwhelming. It was like shedding a 100-pound backpack I didn’t even know I’d been carrying. Sure, I was an emotional wreck realizing it was all a lie, but for the first time, I could see the church for what it really was: a massive, unnecessary burden.\n<br>\n<br><b>Why I’m Staying Out</b><br><b>\n</b><br>Leaving the church has been the most empowering thing I’ve ever done. I didn’t know what empowerment felt like until I left. That “still, small voice” they teach you about? Turns out, it’s your own body—your instincts, your feelings. Who knew?\n<br>\n<br>I’ve gained so much: self-confidence, emotional intelligence, empowerment, and freedom. I’ve even lost weight (those guilt-induced eating habits were no joke). And for all I’ve gained, what I left behind doesn’t compare. A community built on conditions? Superficial friendships? No thanks.\n<br>\n<br><b>Balancing Pain and Humor</b><br><b>\n</b><br>Of course, deconstructing my faith hasn’t been without its absurd moments. The most hilariously ironic part? Realizing I didn’t trust myself. At all. Growing up, the church demanded complete obedience, and that conditioning left me disconnected from my own instincts. It’s wild to see how many healthy adults just… have that skill.\n<br>\n<br>Then there’s the rules: magic underwear, tithing on lemonade stand earnings, the Word of Wisdom. Don’t even get me started on callings. Once, I was assigned to nursery—a volunteer position I specifically said I didn’t want. “Oh, God must really want you there,” they told me. I cried for a week.\n<br>\n<br><b>A Message to Anyone Questioning</b><br><b>\n</b><br>If you’re questioning your faith, here’s what I want you to know: Whether you stay or leave, it doesn’t matter—as long as you’re happy. But you deserve <i>informed consent</i>. Don’t take someone else’s word for it. Explore. Question. Learn.\n<br>\n<br>I used to think I was “happier than ever” in the church, too. I wasn’t. Not even close. It’s scary to step away, but I promise you: there’s life, love, and joy outside. More than I ever imagined.</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article02 healthm5\" group=\"Article\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"12\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"12\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDesc\" checked>\n        <input type=\"color\" title=\"Description BG\" value=\"#353535\" name=\"descBg\" condition=\"showDesc ||showCardDesc\" selected>\n        <input type=\"color\" title=\"Description Border\" value=\"#0abab5\" name=\"borderDesc\" condition=\"showDesc || showCardDesc\" selected>\n        <input type=\"checkbox\" title=\"Text 1\" name=\"showText_1\">\n        <input type=\"checkbox\" title=\"Subtitle&quot;\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Text 2\" name=\"showText_2\" checked>\n        <input type=\"color\" title=\"Container BG\" value=\"#353535\" name=\"container\" selected>\n        <input type=\"color\" title=\"Border\" value=\"#d4a5a5\" name=\"border\" selected>\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Card Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Card Role\" name=\"showRole\" checked>\n        <input type=\"color\" title=\"Card BG\" value=\"#bbbbbb\" name=\"card\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/healthm5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/healthm5/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n            <div class=\"col-12 col-lg-6\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/dalle-2024-12-14-21.38.28-a-minimalist-illustration-of-an-open-hand-holding-a-glowing-heart-with-vibrant-rainbow-hues.-the-hand-is-realistic-yet-simple-with-a-soft-neutral-ba.webp\" alt=\"Mobirise\">\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-6\">\n                <div class=\"content-wrapper\">\n                    <div class=\"content-wrap\" mbr-if=\"showDesc || showTitle || showText\">\n                        <div class=\"desc-wrapper\">\n                            <p class=\"mbr-desc mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showDesc\" data-app-selector=\".mbr-desc, .desc-wrapper\">December 14, 2024</p>\n                        </div>\n                        <h2 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>What If Christlike Love Actually Meant Something?</b></h2>\n                        <p class=\"mbr-text_1 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText_1\" data-app-selector=\".mbr-text_1\"></p>\n                    </div>\n                    <div class=\"content-wrap\" mbr-if=\"showSubtitle || showText_2\">\n                        <h3 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"><b>\n                            Beyond Physical Strength\n                        </b></h3>\n                        <p class=\"mbr-text_2 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText_2\" data-app-selector=\".mbr-text_2\">I’ve been spiraling tonight, so bear with me while I pull my ADHD brain together into something resembling a coherent thought. But honestly, isn’t that the best energy for tackling big, fiery topics? Let’s talk about unconditional love, LGBTQ acceptance, and the frustrating way humanity can be…well, ridiculous. (But I promise I’ll phrase it nicer. Mostly.)<br><br><b>Humans Are So Dumb Sometimes (Myself Included!)</b><br><br>First things first: humans are stupid. Myself included! We all cling to outdated beliefs, let our emotions rule us, and sometimes do harm without even realizing it. But here’s the thing—it doesn’t have to stay that way. Imagine if we all had a magical button that could make people suddenly aware of how they’ve been emotionally manipulated. A button that lets us see the harm we’ve caused (and experienced!) and pushes us to manage our big feelings in healthy ways instead of lashing out.<br><br>I’d press that button in a heartbeat. Honestly, I’d slam it with both hands, consequences be damned. If that button existed, it would do what so many people in high-demand systems (ahem, Mormonism) seem to avoid: force us to actually think critically about our emotions, beliefs, and actions.<br><br><b>The LGBTQ Flag Incident: Why This Stuff Matters</b><br><br>This brings me to a story that’s been sitting heavy on my heart. Alex’s aunt Irene, someone I used to think highly of, did something that shook me. Her daughter, Tracy, hung an LGBTQ flag in her room—probably as a sign of love and solidarity for her friends. Irene saw it and, instead of being proud of Tracy for her kindness, reacted like a textbook Mormon parent. She told Tracy to take it down and kept her home from school to have a “talk.” You can imagine how that went.<br><br>Now, I’m not close to Tracy, and I don’t want to overstep, but my heart broke for her. Here’s a young person who is just trying to show love, and her mom—someone who should be her biggest supporter—is treating it like a moral crisis. For what? A piece of fabric? A symbol of love and inclusion? How is this Christlike love? Spoiler alert: it’s not.<br><b><br>What’s So Scary About Acceptance?</b><br><br>Let’s get real: Mormonism (and so many other religions) have this bizarre fear of acceptance. The idea that loving someone as they are—without trying to change them—somehow condones “sin.” But isn’t the whole point of Christlike love that it’s supposed to be unconditional? If God really is all-knowing and all-loving, why on earth would He be so hung up on arbitrary rules about sexuality, gender, or even who gets to wave a rainbow flag in their bedroom?<br><br>The way I see it, unconditional love isn’t about obedience or control. It’s about seeing someone for who they are and choosing to love them anyway. It’s about connection, compassion, and showing up for people, even when their journey looks different from yours. And frankly, if a God exists who’d rather see people suffer than be loved for who they are, that’s not a God I’m interested in.<br><b><br>The World Is Changing (Slowly, but Surely)</b><br><br>Here’s the good news: the world is evolving. Outside of high-demand systems like Mormonism, I see more and more people embracing the “live and let live” mentality. Dr. Grumble, my Jewish colleague, is a perfect example. When his kids started exploring relationships and identity, his response wasn’t fear or control—it was, “You can have your girlfriend over, just save the intimacy for the dorm room.” No lectures, no judgment, just practical boundaries and acceptance. Why can’t more people be like that?<br><br>And yet, stories like Tracy’s remind me how much work is left to do. People like Irene are so entrenched in their conditioning that they see love and acceptance as threats. It’s exhausting. But it also makes me more determined to be a voice for change.<br><br><b>My New Religion: Being a Good Human</b><br><br>Here’s where I’ve landed: I’m done with religion. Not because I don’t believe in love or goodness, but because I believe in them so much that I can’t stomach the harm religion often causes. My new “religion” is this:<br><br>Be the person I want to be.<br><br>Treat people with kindness and respect.<br><br>Fight for love and inclusion, even when it’s hard.<br><br>If heaven exists, the only question at the gates should be: “How did you treat your fellow humans?” Not, *“Did you obey arbitrary rules?” Not, *“Did you take down that rainbow flag?” Just, *“Did you love?”<br><br><b>Final Thoughts: Love Is the Answer (Always)</b><br><br>Tracy’s story breaks my heart, but it also fuels my fire. We can do better. We have to do better. If “Christlike love” is supposed to mean anything, it should mean this: love without conditions, without judgment, and without fear. Anything less isn’t love—it’s control.<br><br>So here’s my question for anyone reading this: What kind of love are you showing the world? Is it rooted in rules and fear, or is it the kind of love that changes lives for the better? For me, the choice is clear.<br><br>Love big. Love loud. And if you see someone like Tracy, remind them they’re incredible, rainbow flag and all. ❤️</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 1rem)",
@@ -7646,7 +7646,7 @@
           },
           "_name": "content12",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content12\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#232323\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrAddBtn\"><a class=\"btn btn-secondary-outline\" href=\"page11.html\" data-app-placeholder=\"Type Text\">Blog Menu</a>\n                    <a class=\"btn btn-secondary-outline\" href=\"page13.html\" data-app-placeholder=\"Type Text\">Next</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content12\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#232323\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrAddBtn\"><a class=\"btn btn-secondary-outline\" href=\"page11.html\" data-app-placeholder=\"Type Text\">Blog Menu</a>\n                    <a class=\"btn btn-secondary-outline\" href=\"page15.html\" data-app-placeholder=\"Type Text\">Next</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "uwvH23t6vS",
           "_anchor": "content12-46",
           "_protectedParams": [],
@@ -9420,11 +9420,11 @@
           "_sourceTheme": "mobirise5",
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"image2\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"row align-items-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/confettu%20you%20did%20it.png\" alt=\"Mobirise Website Builder\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-description\">\n                        Image Description</p>\n                </div>\n            </div>\n            <div class=\"col-12\" mbr-class=\"{'col-lg' : !fullWidth, 'col-lg-4' : fullWidth &amp;&amp; textWidth >= 6, 'col-lg-6' : fullWidth &amp;&amp; textWidth <= 5}\">\n                <div class=\"text-wrapper\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n                        <b>You Read an Entire Rabbit Hole!</b></h3>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Nice work! I didn't think anyone cared! You know what, if you found this page, screenshot it and email it to me at my.still.small.voice.inside@gmail.com! You get a shoutout on my next blog post and a virtual high-five!</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "uwI42kLLqm",
+          "_anchor": "image2-4n",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "image2-4n"
+          "_params": {}
         },
         {
           "alias": false,
@@ -9448,6 +9448,651 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        }
+      ]
+    },
+    "page20.html": {
+      "settings": {
+        "title": "What If Christlike Love Actually Meant Something?",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/img_20241028_161735_resized-921x921.png",
+        "order": "11"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@sticky)": {
+              ".navbar-dropdown": {
+                "position": "relative !important"
+              },
+              "& when (@transparent)": {
+                ".navbar-dropdown": {
+                  "position": "absolute !important"
+                }
+              }
+            },
+            "& when (@sticky)": {
+              "z-index": "1000",
+              "width": "100%",
+              "& when not (@transparent)": {
+                "position": "relative",
+                "min-height": "60px"
+              },
+              "nav.navbar": {
+                "position": "fixed"
+              }
+            },
+            ".dropdown-item:before": {
+              "font-family": "Moririse2 !important",
+              "content": "\"\\e966\"",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "0.5rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "transform": "scale(0, 1)",
+              "transition": "all 0.25s ease-in-out"
+            },
+            ".dropdown-menu": {
+              "padding": "0",
+              "border-radius": "4px",
+              "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)"
+            },
+            ".dropdown-item": {
+              "border-bottom": "1px solid #e6e6e6",
+              "&:hover, &:focus": {
+                "background": "@primaryColor !important",
+                "color": "white !important"
+              },
+              "&:first-child": {
+                "border-top-left-radius": "4px",
+                "border-top-right-radius": "4px"
+              },
+              "&:last-child": {
+                "border-bottom": "none",
+                "border-bottom-left-radius": "4px",
+                "border-bottom-right-radius": "4px"
+              }
+            },
+            ".nav-dropdown .link": {
+              "padding": "0 0.3em !important",
+              "margin": "0.667em 1em !important"
+            },
+            ".nav-dropdown .link.dropdown-toggle::after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem"
+            },
+            ".nav-link": {
+              "position": "relative"
+            },
+            ".container": {
+              "display": "flex",
+              "margin": "auto"
+            },
+            ".iconfont-wrapper": {
+              "color": "@iconsColor !important",
+              "font-size": "1.5rem",
+              "padding-right": "0.5rem"
+            },
+            ".navbar-caption": {},
+            ".navbar-nav": {},
+            ".dropdown-menu, .navbar.opened": {
+              "background": "@menuBgColor !important"
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-right": "0.5rem",
+                "vertical-align": "sub",
+                "&:before": {
+                  "display": "inline-block",
+                  "transform": "scale(1, 1)",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "70px",
+              "transition": "all 0.3s",
+              "border-bottom": "1px solid transparent",
+              "&:not(.navbar-short)": {},
+              "& when not (@transparent)": {
+                "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)",
+                "background": "@menuBgColor"
+              },
+              "& when (@transparent)": {
+                "position": "absolute",
+                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
+              },
+              "&.opened": {
+                "transition": "all 0.3s"
+              },
+              ".dropdown-item": {
+                "padding": "0.5rem 1.8rem"
+              },
+              ".navbar-logo img": {
+                "width": "auto"
+              },
+              ".navbar-collapse": {
+                "justify-content": "flex-end",
+                "z-index": "1"
+              },
+              "&.collapsed": {
+                "justify-content": "center",
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "41%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-right": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "40%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "flex-basis": "auto",
+                  "word-break": "break-word",
+                  "padding-right": "2rem"
+                },
+                ".navbar-toggler": {
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "&.navbar-short": {
+                "min-height": "60px",
+                ".navbar-logo": {
+                  "img": {
+                    "height": "2.5rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "min-height": "60px",
+                  "padding": "0"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "min-height": "70px",
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "10px 0",
+              "transition": "all 0.3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active, .dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "block"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center",
+              "min-width": "170px"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all 0.2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all 0.2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all 0.2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              },
+              "&:nth-child(2)": {
+                "transform": "rotate(45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(3)": {
+                "transform": "rotate(-45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": "0 1rem",
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            ".icons-menu": {
+              "flex-wrap": "nowrap",
+              "display": "flex",
+              "justify-content": "center",
+              "padding-left": "1rem",
+              "padding-right": "1rem",
+              "padding-top": "0.3rem",
+              "text-align": "center"
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "70px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~\"+\" 2rem)",
+                "left": "-1rem"
+              }
+            }
+          },
+          "_name": "menu2",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu2\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"3.4\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#d4a5a5\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\" checked>\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#0abab5\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                    'navbar-expand-lg':!collapsed,\n                    'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/img_20241028-161735-96x96.png\" alt=\"Mobirise Website Builder\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-secondary text-primary\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">My Still Small Voice<br></a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"page5.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">About Me</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"page7.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Blog</a></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary show\" href=\"page6.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">FAQ</a></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"page8.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Contact<br></a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-secondary\" href=\"index.html#form4-6\" data-app-placeholder=\"Type Text\">\n                        Contact Me</a></div>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_isUserblock": true,
+          "_cid": "uwZSpr0xrW",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {},
+          "_anchor": "menu2-4q"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            }
+          },
+          "_name": "content6",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content6\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        \n        <input type=\"color\" name=\"lineColor\" title=\"Color\" value=\"#0abab5\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#232323\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <hr class=\"line\">\n                <p class=\"mbr-text align-center mbr-fonts-style my-4\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\"></p>\n                <hr class=\"line\">\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_cid": "uwZSps39At",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content6-4r"
+        },
+        {
+          "_name": "article02",
+          "_sourceTheme": "healthm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article02 healthm5\" group=\"Article\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"12\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"12\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDesc\" checked>\n        <input type=\"color\" title=\"Description BG\" value=\"#353535\" name=\"descBg\" condition=\"showDesc ||showCardDesc\" selected>\n        <input type=\"color\" title=\"Description Border\" value=\"#0abab5\" name=\"borderDesc\" condition=\"showDesc || showCardDesc\" selected>\n        <input type=\"checkbox\" title=\"Text 1\" name=\"showText_1\">\n        <input type=\"checkbox\" title=\"Subtitle&quot;\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Text 2\" name=\"showText_2\" checked>\n        <input type=\"color\" title=\"Container BG\" value=\"#353535\" name=\"container\" selected>\n        <input type=\"color\" title=\"Border\" value=\"#d4a5a5\" name=\"border\" selected>\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Card Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Card Role\" name=\"showRole\" checked>\n        <input type=\"color\" title=\"Card BG\" value=\"#bbbbbb\" name=\"card\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/healthm5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/healthm5/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n            <div class=\"col-12 col-lg-6\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/dalle-2024-12-14-21.38.28-a-minimalist-illustration-of-an-open-hand-holding-a-glowing-heart-with-vibrant-rainbow-hues.-the-hand-is-realistic-yet-simple-with-a-soft-neutral-ba.webp\" alt=\"Mobirise\">\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-6\">\n                <div class=\"content-wrapper\">\n                    <div class=\"content-wrap\" mbr-if=\"showDesc || showTitle || showText\">\n                        <div class=\"desc-wrapper\">\n                            <p class=\"mbr-desc mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showDesc\" data-app-selector=\".mbr-desc, .desc-wrapper\">December 14, 2024</p>\n                        </div>\n                        <h2 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>What If Christlike Love Actually Meant Something?</b></h2>\n                        <p class=\"mbr-text_1 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText_1\" data-app-selector=\".mbr-text_1\"></p>\n                    </div>\n                    <div class=\"content-wrap\" mbr-if=\"showSubtitle || showText_2\">\n                        <h3 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"><b>\n                            Beyond Physical Strength\n                        </b></h3>\n                        <p class=\"mbr-text_2 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText_2\" data-app-selector=\".mbr-text_2\">I’ve been spiraling tonight, so bear with me while I pull my ADHD brain together into something resembling a coherent thought. But honestly, isn’t that the best energy for tackling big, fiery topics? Let’s talk about unconditional love, LGBTQ acceptance, and the frustrating way humanity can be…well, ridiculous. (But I promise I’ll phrase it nicer. Mostly.)<br><br><b>Humans Are So Dumb Sometimes (Myself Included!)</b><br><br>First things first: humans are stupid. Myself included! We all cling to outdated beliefs, let our emotions rule us, and sometimes do harm without even realizing it. But here’s the thing—it doesn’t have to stay that way. Imagine if we all had a magical button that could make people suddenly aware of how they’ve been emotionally manipulated. A button that lets us see the harm we’ve caused (and experienced!) and pushes us to manage our big feelings in healthy ways instead of lashing out.<br><br>I’d press that button in a heartbeat. Honestly, I’d slam it with both hands, consequences be damned. If that button existed, it would do what so many people in high-demand systems (ahem, Mormonism) seem to avoid: force us to actually think critically about our emotions, beliefs, and actions.<br><br><b>The LGBTQ Flag Incident: Why This Stuff Matters</b><br><br>This brings me to a story that’s been sitting heavy on my heart. Alex’s aunt Irene, someone I used to think highly of, did something that shook me. Her daughter, Tracy, hung an LGBTQ flag in her room—probably as a sign of love and solidarity for her friends. Irene saw it and, instead of being proud of Tracy for her kindness, reacted like a textbook Mormon parent. She told Tracy to take it down and kept her home from school to have a “talk.” You can imagine how that went.<br><br>Now, I’m not close to Tracy, and I don’t want to overstep, but my heart broke for her. Here’s a young person who is just trying to show love, and her mom—someone who should be her biggest supporter—is treating it like a moral crisis. For what? A piece of fabric? A symbol of love and inclusion? How is this Christlike love? Spoiler alert: it’s not.<br><b><br>What’s So Scary About Acceptance?</b><br><br>Let’s get real: Mormonism (and so many other religions) have this bizarre fear of acceptance. The idea that loving someone as they are—without trying to change them—somehow condones “sin.” But isn’t the whole point of Christlike love that it’s supposed to be unconditional? If God really is all-knowing and all-loving, why on earth would He be so hung up on arbitrary rules about sexuality, gender, or even who gets to wave a rainbow flag in their bedroom?<br><br>The way I see it, unconditional love isn’t about obedience or control. It’s about seeing someone for who they are and choosing to love them anyway. It’s about connection, compassion, and showing up for people, even when their journey looks different from yours. And frankly, if a God exists who’d rather see people suffer than be loved for who they are, that’s not a God I’m interested in.<br><b><br>The World Is Changing (Slowly, but Surely)</b><br><br>Here’s the good news: the world is evolving. Outside of high-demand systems like Mormonism, I see more and more people embracing the “live and let live” mentality. Dr. Grumble, my Jewish colleague, is a perfect example. When his kids started exploring relationships and identity, his response wasn’t fear or control—it was, “You can have your girlfriend over, just save the intimacy for the dorm room.” No lectures, no judgment, just practical boundaries and acceptance. Why can’t more people be like that?<br><br>And yet, stories like Tracy’s remind me how much work is left to do. People like Irene are so entrenched in their conditioning that they see love and acceptance as threats. It’s exhausting. But it also makes me more determined to be a voice for change.<br><br><b>My New Religion: Being a Good Human</b><br><br>Here’s where I’ve landed: I’m done with religion. Not because I don’t believe in love or goodness, but because I believe in them so much that I can’t stomach the harm religion often causes. My new “religion” is this:<br><br>Be the person I want to be.<br><br>Treat people with kindness and respect.<br><br>Fight for love and inclusion, even when it’s hard.<br><br>If heaven exists, the only question at the gates should be: “How did you treat your fellow humans?” Not, *“Did you obey arbitrary rules?” Not, *“Did you take down that rainbow flag?” Just, *“Did you love?”<br><br><b>Final Thoughts: Love Is the Answer (Always)</b><br><br>Tracy’s story breaks my heart, but it also fuels my fire. We can do better. We have to do better. If “Christlike love” is supposed to mean anything, it should mean this: love without conditions, without judgment, and without fear. Anything less isn’t love—it’s control.<br><br>So here’s my question for anyone reading this: What kind of love are you showing the world? Is it rooted in rules and fear, or is it the kind of love that changes lives for the better? For me, the choice is clear.<br><br>Love big. Love loud. And if you see someone like Tracy, remind them they’re incredible, rainbow flag and all. ❤️</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            "& when (@fullWidth)": {
+              ".container-fluid": {
+                "padding": "0 64px",
+                "@media (max-width: 992px)": {
+                  "padding": "0 32px"
+                },
+                "@media (max-width: 768px)": {
+                  "padding": "0 24px"
+                }
+              }
+            },
+            ".container": {
+              "@media (max-width: 992px)": {
+                "padding": "0 32px"
+              },
+              "@media (max-width: 768px)": {
+                "padding": "0 24px"
+              }
+            },
+            ".image-wrapper": {
+              "position": "sticky",
+              "top": "32px"
+            },
+            "img": {
+              "height": "90vh",
+              "object-fit": "cover",
+              "border": "2px solid #0ABAB5",
+              "border-radius": "8px"
+            },
+            "@media (max-width: 768px)": {
+              "img": {
+                "height": "50vh",
+                "width": "100%",
+                "margin-bottom": "20px"
+              },
+              ".image-wrapper": {
+                "position": "relative",
+                "top": "0"
+              }
+            },
+            ".content-wrapper": {
+              "padding": "64px",
+              "border-radius": "2rem !important",
+              "border": "1px solid @border",
+              "background-color": "@container",
+              "@media (max-width: 992px)": {
+                "padding": "24px"
+              },
+              ".content-wrap": {
+                "margin-bottom": "32px",
+                ".desc-wrapper": {
+                  ".mbr-desc": {
+                    "display": "inline-flex",
+                    "padding": "2px 10px",
+                    "position": "relative",
+                    "background-color": "@card",
+                    "margin-bottom": "16px",
+                    "border-radius": "500px",
+                    "border": "1px solid @borderDesc"
+                  }
+                },
+                ".mbr-section-title": {
+                  "margin-bottom": "16px"
+                },
+                ".mbr-text_1": {
+                  "opacity": ".5",
+                  "margin-bottom": "0"
+                },
+                ".mbr-section-subtitle": {
+                  "margin-bottom": "16px"
+                },
+                ".mbr-text_2": {
+                  "margin-bottom": "0"
+                }
+              },
+              ".person-wrapper": {
+                "margin-bottom": "48px",
+                ".person-wrap": {
+                  "display": "inline-flex",
+                  "align-items": "center",
+                  "border-radius": "1rem",
+                  "background-color": "@card",
+                  "border": "1px solid @border",
+                  "padding": "16px",
+                  "img": {
+                    "width": "50px",
+                    "height": "50px",
+                    "border-radius": "100% !important",
+                    "object-fit": "cover",
+                    "margin-right": "16px"
+                  },
+                  ".name-wrapper": {
+                    ".mbr-name": {
+                      "margin-bottom": "0"
+                    },
+                    ".mbr-role": {
+                      "opacity": ".5",
+                      "margin-bottom": "0"
+                    }
+                  }
+                }
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#0abab5"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#0abab5"
+            },
+            ".mbr-desc": {
+              "color": "#18212d"
+            },
+            ".mbr-text_1": {
+              "color": "#d4a5a5"
+            },
+            ".mbr-text_2": {
+              "color": "#fafafa"
+            },
+            ".mbr-role": {
+              "color": "#18212d"
+            },
+            ".mbr-name": {
+              "color": "#18212d"
+            },
+            ".mbr-desc, .desc-wrapper": {
+              "color": "#353535"
+            },
+            ".mbr-name, .person-wrapper": {
+              "color": "#353535"
+            },
+            ".mbr-role, .person-wrapper": {
+              "color": "#353535"
+            },
+            ".article02-29 h2, .mbr-section-title h2": {
+              "color": "#0ABAB5 !important",
+              "font-weight": "bold",
+              "margin-top": "20px"
+            }
+          },
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_cid": "uwZSpsMwvt",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "article02-4s"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-section-btn": {
+              "justify-content": "space-between",
+              "display": "flex",
+              "flex-wrap": "wrap"
+            }
+          },
+          "_name": "content12",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content12\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#232323\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrAddBtn\"><a class=\"btn btn-secondary-outline\" href=\"page11.html\" data-app-placeholder=\"Type Text\">Blog Menu</a>\n                    <a class=\"btn btn-secondary-outline\" href=\"page15.html\" data-app-placeholder=\"Type Text\">Next</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "uwZSpu4Ian",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content12-4t"
         }
       ]
     }
